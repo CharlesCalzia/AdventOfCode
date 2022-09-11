@@ -1,4 +1,4 @@
-from utils import read
+from general.utils import read
 
 input = read()
 grids = input.split('\n\n')

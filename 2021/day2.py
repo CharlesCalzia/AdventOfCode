@@ -1,4 +1,4 @@
-from utils import read
+from general.utils import read
 
 input = read()
 
@@ -14,4 +14,5 @@ for inp in input:
         y+=(aim*magnitude)
     elif direction=="up": aim-=magnitude
     elif direction=="down": aim+=magnitude
+
 print(abs(x*y))
